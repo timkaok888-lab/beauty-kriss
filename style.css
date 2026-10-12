@@ -51,7 +51,7 @@ h1 span, h2 span { color: var(--gold); }
 .service-info a { color: var(--gold); font-size: 12px; }
 
 .portfolio-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; max-width: 1120px; margin: auto; }
-.portfolio-grid img { display: block; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border: 1px solid var(--line); background: var(--panel); }
+.portfolio-grid img { display: block; width: 100%; height: clamp(170px, 24vw, 280px); aspect-ratio: auto; object-fit: cover; border: 1px solid var(--line); background: var(--panel); }
 
 .about-section { border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); background: #171513; padding: 80px clamp(22px, 10vw, 140px); display: grid; grid-template-columns: .7fr 1.3fr; align-items: center; gap: 50px; }
 .about-mark { width: min(260px, 100%); aspect-ratio: 1; border: 1px solid var(--gold); border-radius: 50%; display: grid; place-items: center; color: var(--gold); font: 70px 'Playfair Display', Georgia, serif; box-shadow: inset 0 0 0 12px #171513, inset 0 0 0 13px var(--line); margin: auto; }
@@ -79,6 +79,7 @@ footer p, .back-top { color: var(--muted); font-size: 12px; }
   .section { padding-top: 65px; padding-bottom: 65px; }
   .service-grid { grid-template-columns: 1fr; max-width: 440px; }
   .portfolio-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+  .portfolio-grid img { height: 165px; }
   .service-art { height: 190px; }
   .service-info p { min-height: 0; }
   .about-section { grid-template-columns: 1fr; gap: 32px; padding-top: 60px; padding-bottom: 60px; }
