@@ -19,7 +19,7 @@ if (menuToggle && navMenu) {
 
 // Перед публикацией замени номер на настоящий номер мамы.
 // Формат для ссылки: +79991234567 (без пробелов и скобок).
-const bookingPhone = '+79991234567';
+const bookingPhone = '+79378227444';
 const phoneLink = document.getElementById('phoneLink');
 const phoneText = document.getElementById('phoneText');
 
