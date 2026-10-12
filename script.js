@@ -25,5 +25,5 @@ const phoneText = document.getElementById('phoneText');
 
 if (phoneLink && phoneText) {
   phoneLink.href = `tel:${bookingPhone}`;
-  phoneText.textContent = bookingPhone;
+  phoneText.textContent = '+7 (937) 822-74-44';
 }
